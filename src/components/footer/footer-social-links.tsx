@@ -6,7 +6,7 @@ import { SocialLink } from '@/interfaces/social-link'
 export const socialLinks: SocialLink[] = [
   {
     name: 'Instagram',
-    link: '#',
+    link: 'https://www.instagram.com/kleuize/',
     icon: '/images/icons/instagram.svg',
   },
   {
@@ -21,12 +21,12 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: 'Dribbble',
-    link: 'https://dribbble.com/shots/18114471-Coursespace-Online-Course-Landing-Page',
+    link: '#',
     icon: '/images/icons/dribbble.svg',
   },
   {
     name: 'Github',
-    link: 'https://github.com/hiriski/coursespace-landing-page',
+    link: 'https://github.com/ensunluer/',
     icon: '/images/icons/github.svg',
   },
 ]
