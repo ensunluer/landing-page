@@ -18,15 +18,15 @@ interface ExpItemProps {
 
 const exps: Array<Exp> = [
   {
-    label: 'Students',
+    label: 'Öğrenci',
     value: '10K+',
   },
   {
-    label: 'Quality Course',
+    label: 'Kaliteli Kurs',
     value: '20+',
   },
   {
-    label: 'Experience Mentors',
+    label: 'Deneyimli Eğitmen',
     value: '10+',
   },
 ]
