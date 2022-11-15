@@ -49,6 +49,9 @@ const CourseCardItem: FC<Props> = ({ item }) => {
           <Typography component="h2" variant="h5" sx={{ mb: 2, height: 56, overflow: 'hidden', fontSize: '1.2rem' }}>
             {item.title}
           </Typography>
+          <Typography component="h6" variant="h6" sx={{ mb: 1, height: 26, overflow: 'hidden', fontSize: '0.9rem' }}>
+            {` Eğitmen: ${item.instructor}`}
+          </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Rating name="rating-course" value={item.rating} max={5} sx={{ color: '#ffce31', mr: 1 }} readOnly />
             <Typography component="span" variant="h5">
@@ -58,10 +61,18 @@ const CourseCardItem: FC<Props> = ({ item }) => {
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Typography variant="h5" color="primary.main">
-              {'$' + item.price}
-            </Typography>
-            <Typography variant="h6">/ course</Typography>
+            {item.price === 0 ? (
+              <Typography variant="h5" color="primary.main">
+                Ücretsiz
+              </Typography>
+            ) : (
+              <>
+                <Typography variant="h5" color="primary.main">
+                  {'₺' + item.price}
+                </Typography>
+                <Typography variant="h6">/ kurs</Typography>
+              </>
+            )}
           </Box>
           <IconButton
             color="primary"
