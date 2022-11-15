@@ -7,8 +7,8 @@ import { CacheProvider } from '@emotion/react'
 import { createEmotionCache } from '@/utils'
 import { MUIProvider } from '@/providers'
 import 'slick-carousel/slick/slick.css'
-import '@/styles/globals.css'
-import '@/styles/react-slick.css'
+import '@/styles/globals.scss'
+import '@/styles/react-slick.scss'
 import { NextPageWithLayout } from '@/interfaces/layout'
 // import 'slick-carousel/slick/slick-theme.css'
 
@@ -30,7 +30,7 @@ const App: FC<AppPropsWithLayout> = (props: AppPropsWithLayout) => {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title>React Coursespace</title>
+        <title>Kleuize</title>
       </Head>
       <MUIProvider>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

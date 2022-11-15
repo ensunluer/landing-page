@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 import { Box, Typography } from '@mui/material'
+//@ts-ignore
 
 interface Props {
   onClick?: () => void
@@ -9,12 +10,8 @@ interface Props {
 const Logo: FC<Props> = ({ onClick, variant }) => {
   return (
     <Box onClick={onClick}>
-      <Typography
-        variant="h4"
-        component="h1"
-        sx={{ fontWeight: 700, '& span': { color: variant === 'primary' ? 'primary.main' : 'unset' } }}
-      >
-        Enes<span>Ünlüer</span>
+      <Typography variant="h4" component="h1" className="logo">
+        Kleuize
       </Typography>
     </Box>
   )
