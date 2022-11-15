@@ -3,13 +3,13 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'Ayrıntılı öğrenme metaryelleri',
     content:
       'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
     user: {
       id: 1,
-      name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
+      name: 'Enes Ünlüer',
+      professional: 'Software Developer',
       photo: '1.jpg',
     },
   },
@@ -20,8 +20,8 @@ export const data: Array<Testimonial> = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     user: {
       id: 1,
-      name: 'Riski',
-      professional: 'Software Engineer',
+      name: 'Merve Erden',
+      professional: 'Content Creator',
       photo: '2.jpg',
     },
   },
@@ -32,8 +32,8 @@ export const data: Array<Testimonial> = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     user: {
       id: 1,
-      name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
+      name: 'Ibey Sorochuwu',
+      professional: 'Instructor',
       photo: '3.jpg',
     },
   },
