@@ -1,0 +1,3 @@
+.logo {
+  @include CalistogaText(400, 32px, 20px, $bg-active-text);
+}

@@ -1,0 +1,11 @@
+$bg-active: #08104d;
+$bg-active-text: #08104d;
+
+@mixin CalistogaText($weight, $size, $height, $color) {
+  font-family: 'Calistoga', cursive;
+  font-weight: $weight;
+  font-style: normal;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
